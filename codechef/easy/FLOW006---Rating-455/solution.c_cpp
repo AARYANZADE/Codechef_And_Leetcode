@@ -1,0 +1,19 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int t;
+    cin >> t;
+    while(t--) {
+        int n;
+        cin >> n;
+        int sum = 0;
+        while(n != 0) {
+            int d = n % 10; // Extract the last digit
+            sum = sum + d;  // Add it to the sum
+            n = n / 10;     // Remove the last digit
+        }
+        cout << sum << "\n";
+    }
+    return 0;
+}
