@@ -7,7 +7,7 @@ int main() {int n;
     cin >> a >> b;
 
     int aofa = 0;
-    int bofa = 0;
+    int bofb = 0;
 
     for (int i = 0; i < n; i++) {
         if (a[i] == 'a') {
@@ -24,4 +24,4 @@ int main() {int n;
         cout << "NO"<<endl;
     }
 }
-}
+
