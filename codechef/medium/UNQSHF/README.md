@@ -74,25 +74,34 @@ So, no solution exists.
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-09T14:48:29.799Z  
+**Submitted:** 2026-09-09T14:53:27.169Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
 using namespace std;
 
-int main() {
-	// your code goes here
-int t ;
-cin >> t ;
-while (t--){
-    int n ;
-    string a , b ;
-    cin >> n >> a >> b ;
-    if (count(a.begin(), a.end(), 'a') == count(b.begin(), b.end(), 'b')){
-        cout<<"yes"<<endl;
+int main() {int n;
+    cin >> n;
+    string a, b;
+    cin >> a >> b;
+
+    int aofa = 0;
+    int bofa = 0;
+
+    for (int i = 0; i < n; i++) {
+        if (a[i] == 'a') {
+            aofa++;
+        }
+        if (b[i] == 'b') {
+            bofb++;
+        }
     }
-    else 
-    cout<<"no"<<endl;
+
+    if (aofa == bofb) {
+        cout << "YES"<<endl;
+    } else {
+        cout << "NO"<<endl;
+    }
 }
 }
 
