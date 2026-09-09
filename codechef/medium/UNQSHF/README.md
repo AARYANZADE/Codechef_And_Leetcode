@@ -74,7 +74,7 @@ So, no solution exists.
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-09T14:53:27.169Z  
+**Submitted:** 2026-09-09T14:54:34.037Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
@@ -86,7 +86,7 @@ int main() {int n;
     cin >> a >> b;
 
     int aofa = 0;
-    int bofa = 0;
+    int bofb = 0;
 
     for (int i = 0; i < n; i++) {
         if (a[i] == 'a') {
@@ -103,7 +103,7 @@ int main() {int n;
         cout << "NO"<<endl;
     }
 }
-}
+
 
 ```
 
