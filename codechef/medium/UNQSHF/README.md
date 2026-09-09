@@ -74,13 +74,17 @@ So, no solution exists.
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-09T14:54:34.037Z  
+**Submitted:** 2026-09-09T14:57:13.261Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
 using namespace std;
 
-int main() {int n;
+int main() {
+    int t ;
+    cin >> t ;
+    while (t--){
+    int n;
     cin >> n;
     string a, b;
     cin >> a >> b;
@@ -102,6 +106,7 @@ int main() {int n;
     } else {
         cout << "NO"<<endl;
     }
+}
 }
 
 
