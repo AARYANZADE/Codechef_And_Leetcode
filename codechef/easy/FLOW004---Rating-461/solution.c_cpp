@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	
+	int t;
+	cin>>t;
+	
+	while(t--)
+	{
+	    int n,firstDigit,lastDigit;
+	    cin>>n;
+	    
+	    firstDigit=n%10;
+	    
+	    while(n>=10)
+	    {
+	        n/=10;
+	    }
+	    
+	    lastDigit=n;
+	    
+	    cout<<firstDigit+lastDigit<<endl;
+	}
+	return 0;
+}
