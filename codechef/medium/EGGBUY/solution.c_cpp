@@ -1,0 +1,11 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+int x , y , f , a , b ;
+cin >> x >> y >> f ;
+a = 12 * x ;
+b = (12 * y) + f ;
+cout<<min(a,b)<<endl;
+}
