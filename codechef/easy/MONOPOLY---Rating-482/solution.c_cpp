@@ -6,9 +6,13 @@ int main() {
 int t ;
 cin >> t ;
 while (t--){
-    int x , y , z, a  ;
-    cin >> x >> y >> z;
-    a = (z - y)/ x ;
-    cout << a << endl;
+    int a , b , c ;
+    cin >> a >> b >> c ;
+    if ( a > b + c || b > a + c || c > a +b ){
+        cout << " yes "<<endl;
+    }
+    else {
+        cout << "no"<<endl;
+    }
 }
 }
