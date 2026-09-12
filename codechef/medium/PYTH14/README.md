@@ -4,53 +4,21 @@
 
 ## Problem
 
-### Multiple Choice Question
-
-What will be the output of this code?
-
-```
-print("Add", 2, "and", 3, "to get ", 5)
-
-```
-
-Option 1:
-
-```
-Add 2 and 3 to get 5
-
-```
-
-Option 2:
-
-```
-"Add" 2 "and" 3 "to get " 5
-
-```
-
-Option 3:
-
-```
-Add 2 and 3 to get  5
-
-```
-
-```
-Note: In Option 1, there is 1 space between "get"  and '5'. 
-In Option 3, there are 2 spaces between "get"  and '5'.
-
-```
+_Description not available._
 
 ## Solution
 
-**Language:** C++  
+**Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-12T07:11:07.807Z  
+**Submitted:** 2026-09-12T07:14:22.396Z  
 
-```cpp
-# Add "equals" and 10 at the place of __, __
+```py
+# Update the '_' below to solve the problem
 
-print(7, "plus", 3, "equals", 10)
+print(11 * 13)          # Area of the rectangle
+
+print(2 * (11 + 13))    # Perimeter of the rectangle
 ```
 
 ---
