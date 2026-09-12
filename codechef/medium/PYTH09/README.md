@@ -4,10 +4,6 @@
 
 ## Problem
 
-### Area & Perimeter of Rectangle
-
-Listen
-
 Write a program for the following problem
 
 - Let’s consider a rectangle of length 11 and breadth 13.
@@ -29,7 +25,7 @@ The formula for perimeter is 2 * (length + breadth).
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-12T07:06:50.794Z  
+**Submitted:** 2026-09-12T07:14:20.410Z  
 
 ```py
 # Update the '_' below to solve the problem
