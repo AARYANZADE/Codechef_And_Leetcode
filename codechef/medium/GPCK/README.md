@@ -59,7 +59,7 @@ Chef has only $2$ notebooks, so he can prepare at most $2$ gift packs.
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-14T14:30:41.410Z  
+**Submitted:** 2026-09-14T14:32:42.537Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
@@ -69,7 +69,12 @@ int main() {
 	// your code goes here
 int a , b ;
 cin >> a >> b ;
-cout << min ( a , b )<<endl;
+if ( a < b ){
+    cout << a << endl;
+}
+else {
+    cout << b << endl;
+}
 }
 
 ```
