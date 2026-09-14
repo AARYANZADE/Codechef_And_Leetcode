@@ -5,5 +5,10 @@ int main() {
 	// your code goes here
 int a , b ;
 cin >> a >> b ;
-cout << min ( a , b )<<endl;
+if ( a < b ){
+    cout << a << endl;
+}
+else {
+    cout << b << endl;
+}
 }
