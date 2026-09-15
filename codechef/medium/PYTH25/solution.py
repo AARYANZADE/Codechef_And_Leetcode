@@ -1,4 +1,4 @@
-# Update the code below this line to solve the problem
-length = 45
-width = 76
-print (length * width)
+# Update your code below this line
+r = 8.9
+pi = 3.14
+print(r * pi * r)
