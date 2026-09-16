@@ -5,6 +5,7 @@ int main() {
 	// your code goes here
 int t ;
 cin >> t ;
+while (t--){
 int n , k ;
 cin >> n >> k ;
 if ( k <= n ){
@@ -12,5 +13,6 @@ if ( k <= n ){
 }
 else {
     cout << 2 * (k - n)<< endl ;
+}
 }
 }
