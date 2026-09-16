@@ -5,14 +5,9 @@ int main() {
 	// your code goes here
 int t ;
 cin >> t ;
-while (t--){
+while ( t--){
     int n , k;
-    cin >> n >> k ;
-    if (n-k == 1){
-        cout << "no"<<endl;
-    }
-    else {
-        cout << "yes"<<endl;
-    }
+    cin >> n >> k;
+    cout <<(n - k == 1 ? "no\n" : "yes\n");
 }
 }
