@@ -55,7 +55,7 @@ Yes
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-16T15:06:13.986Z  
+**Submitted:** 2026-09-16T15:10:51.577Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
@@ -65,15 +65,10 @@ int main() {
 	// your code goes here
 int t ;
 cin >> t ;
-while (t--){
+while ( t--){
     int n , k;
-    cin >> n >> k ;
-    if (n-k == 1){
-        cout << "no"<<endl;
-    }
-    else {
-        cout << "yes"<<endl;
-    }
+    cin >> n >> k;
+    cout <<(n - k == 1 ? "no\n" : "yes\n");
 }
 }
 
