@@ -3,5 +3,12 @@ using namespace std;
 
 int main() {
 	// your code goes here
-
+	int t ;
+	cin >> t  ;
+	while (t--){
+int n , k ;
+cin >> n >> k ;
+int delay = (n - 1 )/ ( k - 1);
+cout << n + delay << endl;
+}
 }
