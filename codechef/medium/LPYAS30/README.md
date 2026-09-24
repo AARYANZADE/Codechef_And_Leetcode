@@ -4,22 +4,31 @@
 
 ## Problem
 
-_Description not available._
+Declare a variable  **"temperature"**  and initialize it with a value of 25.5 (in Celsius) and print it in Celsius and Kelvin (add 273 to the temperature in Celsius).
+
+[ **Note:**  Print the output in exactly the same format as given below. There is single space around hyphen(-)]
+
+### Output Format
+
+Celsius - 25.5
+Kelvin - 298.5
 
 ## Solution
 
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-24T14:42:47.742Z  
+**Submitted:** 2026-09-24T14:44:41.139Z  
 
 ```py
 # cook your dish here
-x = 20
-y = 6
-z = x // y
 
-print (z)
+
+# Declare a variable "temperature" and initialize it with a value of 25.5
+temperature = 25.5
+
+print("celsius - ",temperature)
+print("kelvin - ",25.5 + 273)
 ```
 
 ---
