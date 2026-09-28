@@ -90,7 +90,7 @@ print(a ** b)  # prints 216
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-26T15:21:48.349Z  
+**Submitted:** 2026-09-28T14:07:53.132Z  
 
 ```py
 print(21 + 40 ) #Replace the _ with the correct value
