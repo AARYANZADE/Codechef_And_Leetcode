@@ -1,0 +1,32 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+void solve (){
+    int n, m , k ;
+    cin >> n >> m >> k ;
+    
+    vector<bool> occupied(n + 1, false);
+    for (int i = 0 ; i < m ; ++ i){
+        int seat ;
+        cin >> seat ;
+        occupied[seat] = true ;
+    }
+    
+    int seated = 0 ;
+    for( int seat = 1 ; seat <= n && seated < k ; ++seat){
+        if (!occupied[seat]){
+            cout << seat <<" ";
+            seated++;
+        }
+    }
+    cout <<endl ;
+}
+int main() {
+	// your code goes here
+	int t  ;
+	cin >> t ;
+	while (t--){
+	    solve();
+	}
+
+}
