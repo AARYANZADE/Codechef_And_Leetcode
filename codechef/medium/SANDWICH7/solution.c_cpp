@@ -1,0 +1,13 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+int  b,h  ,c  ;
+if (cin >> b >> h >> c){
+    int maxbread = b / 2 ;
+    int maxfiling = h + c ;
+    cout << min(maxbread , maxfiling)<<endl;
+} 
+
+}
