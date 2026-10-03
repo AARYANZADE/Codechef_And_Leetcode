@@ -45,7 +45,7 @@ You are given two variables `height1` and `height2` - use relational operators t
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-02T15:41:32.870Z  
+**Submitted:** 2026-10-03T06:44:13.556Z  
 
 ```py
 height1 = 15
