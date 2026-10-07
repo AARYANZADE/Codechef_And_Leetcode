@@ -1,0 +1,15 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+int x , y , k ;
+if ( cin >> x >> k >>y  ){
+    if (y % k  == 0 && y <= x* k){
+        cout<<"yes"<<endl;
+    }
+    else{
+        cout<< " no"<<endl ;
+    }
+}
+}
