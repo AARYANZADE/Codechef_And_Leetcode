@@ -20,7 +20,7 @@ Output `True` or `False` assuming that the voting age is $18$ i.e., a person's a
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-04T16:35:18.250Z  
+**Submitted:** 2026-10-09T17:03:06.706Z  
 
 ```py
 age = 20
